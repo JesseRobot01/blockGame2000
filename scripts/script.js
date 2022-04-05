@@ -11,7 +11,14 @@ function knop(sw) {
         game = "./assets/replaced.png"
       
         document.getElementById('screen').alt = "crash";
+        $("#button2").hide()
+        document.getElementById('button3').style = ""
     }
 
+    else if (sw==3){
+        game="./assets/666.png"
+        document.getElementById('dummy').style=""
+        $("#button3").hide()
+    }
     document.getElementById('screen').src = game;
 }
