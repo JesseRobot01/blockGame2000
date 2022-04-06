@@ -1,0 +1,13 @@
+#title { 
+    color: red;
+    text-align: center;
+}
+#screen {
+    border-radius: 64px;
+    border-width: 64px;
+
+border-color: red;
+border-style: outset;
+    width: 800px;
+    height: 1000px;
+}

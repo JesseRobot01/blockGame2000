@@ -17,8 +17,10 @@ function knop(sw) {
 
     else if (sw==3){
         game="./assets/666.png"
-        document.getElementById('dummy').style=""
+        document.getElementById("tab").innerHTML = "666"
         $("#button3").hide()
+        document.getElementById("title").innerHTML = "666"
+        document.getElementById("style1").href = "./scripts/666.css"
     }
     document.getElementById('screen').src = game;
 }
